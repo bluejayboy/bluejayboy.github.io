@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>scram 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div class="title">scram 2</div>
+    <br>
+    <div class="menu-bar-container">
+      <div class="menu-bar">
+        <a href="home.html">home</a>
+        <a href="legacy.html">legacy</a>
+        <a href="music.html">music</a>
+        <div class="selected">fanart</div>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
+      </div>
+    </div>
+    <hr class="menu-separator">
+    <div class="page-content">
+      <div class="carousel fanart-carousel">
+        <div class="carousel-item" data-title="fanart 1" data-text="by player69">
+          <img src="assets/fanart/1.png" alt="Image 1">
+        </div>
+        <div class="carousel-item" data-title="fanart 2" data-text="by player420">
+          <img src="assets/fanart/2.png" alt="Image 2">
+        </div>
+        <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+        <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+      </div>
+      <div class="body-text">
+        <div class="subheader" id="carousel-title">fanart</div>
+        <div class="justified-text" id="carousel-text">placeholder text</div>
+      </div>
+    </div>
+    <script src="fanart-carousel.js"></script>
+  </body>
+</html>
