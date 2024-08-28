@@ -1,7 +1,7 @@
 const games = {
   "dread-signal": {
     items: [
-      { type: "video", src: "https://www.youtube.com/embed/9NLfB7EhY6U" },
+      { type: "video", src: "https://www.youtube.com/embed/wRJvkS2Koz0" },
       { type: "image", img: "assets/legacy/dreadsignal/1.png" },
       { type: "image", img: "assets/legacy/dreadsignal/2.png" }
     ],
@@ -9,7 +9,7 @@ const games = {
   },
   "prototype": {
     items: [
-      { type: "video", src: "https://www.youtube.com/embed/1GdU3NXXrDk" },
+      { type: "video", src: "https://www.youtube.com/embed/Ux_LkcVivlY" },
       { type: "image", img: "assets/legacy/prototype/1.png" },
       { type: "image", img: "assets/legacy/prototype/2.png" }
     ],
@@ -17,7 +17,7 @@ const games = {
   },
   "original": {
     items: [
-      { type: "video", src: "https://www.youtube.com/embed/9qrNw4KhbtU" },
+      { type: "video", src: "https://www.youtube.com/embed/ltBOvnyCkbs" },
       { type: "image", img: "assets/legacy/original/1.png" },
       { type: "image", img: "assets/legacy/original/2.png" }
     ],
