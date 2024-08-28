@@ -1,9 +1,7 @@
 const games = {
   "dread-signal": {
     items: [
-      { type: "video", src: "https://www.youtube.com/embed/wRJvkS2Koz0" },
-      { type: "image", img: "assets/legacy/dreadsignal/1.png" },
-      { type: "image", img: "assets/legacy/dreadsignal/2.png" }
+      { type: "video", src: "https://www.youtube.com/embed/wRJvkS2Koz0" }
     ],
     text: "Dread Signal is a singleplayer story mode conceptualization of the Scram series. It was the first ever version of Scram. Development started in 2014 and was scrapped in 2015. The basic storyline is where you wake up as a character named 'Bradley' and later make new friends throughout the story. The mutant virus was caused by an alien invasion and the goal is to progress through the story."
   },
@@ -11,7 +9,10 @@ const games = {
     items: [
       { type: "video", src: "https://www.youtube.com/embed/Ux_LkcVivlY" },
       { type: "image", img: "assets/legacy/prototype/1.png" },
-      { type: "image", img: "assets/legacy/prototype/2.png" }
+      { type: "image", img: "assets/legacy/prototype/2.png" },
+      { type: "image", img: "assets/legacy/prototype/3.png" },
+      { type: "image", img: "assets/legacy/prototype/4.png" },
+      { type: "image", img: "assets/legacy/prototype/5.png" }
     ],
     text: "The prototype was built in 2016 and later reformed to a completely different art style in 2017. It was meant to resemble a cartoony, 'Borderlands' inspired art style. The game is a rushed concept and lacks the infrastructure and complete mechanics of the following Scram sequels."
   },
@@ -19,7 +20,12 @@ const games = {
     items: [
       { type: "video", src: "https://www.youtube.com/embed/ltBOvnyCkbs" },
       { type: "image", img: "assets/legacy/original/1.png" },
-      { type: "image", img: "assets/legacy/original/2.png" }
+      { type: "image", img: "assets/legacy/original/2.png" },
+      { type: "image", img: "assets/legacy/original/3.png" },
+      { type: "image", img: "assets/legacy/original/4.png" },
+      { type: "image", img: "assets/legacy/original/5.png" },
+      { type: "image", img: "assets/legacy/original/6.png" },
+      { type: "image", img: "assets/legacy/original/7.png" }
     ],
     text: "The original Scram was completely rewritten and revamped in 2017 and was later published on Steam in 2018. The game's brand new art style was meant to resemble a combination of 'South Park' and 'Madness Combat' influenced aesthetics. Offensive humor and silly elements have also been added to the game to make it less serious and more controversial. The game was a massive free to play hit as it has reached over 1 million downloads on Steam."
   },
@@ -27,7 +33,8 @@ const games = {
     items: [
       { type: "video", src: "https://www.youtube.com/embed/hd-s3vtqUUA" },
       { type: "image", img: "assets/legacy/remastered/1.png" },
-      { type: "image", img: "assets/legacy/remastered/2.png" }
+      { type: "image", img: "assets/legacy/remastered/2.png" },
+      { type: "image", img: "assets/legacy/remastered/3.png" }
     ],
     text: "The remastered version was intended to be a parody version of the original game by making it overly serious with realistic graphics as an attempt to prank the fans. It was also intended to significantly improve the graphics and gameplay mechanics. Unfortunately, the game did not align with the original game's vision and thus received negative backlash from the community. The project was completed in a couple of months and development has been halted, and thus Scram 2 development has begun."
   }
