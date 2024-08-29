@@ -294,3 +294,109 @@ a:hover {
 .contact-info a {
   color: #40de32;
 }
+
+
+@media (max-width: 600px) {
+  html,
+  body {
+    padding-top: 3vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-size: 1.2em;
+  }
+
+  a {
+    font-size: 3.5vw;
+  }
+
+  .selected {
+    font-size: 4vw;
+  }
+
+  .submenu-bar a {
+    font-size: 3vw;
+  }
+  
+  .submenu-bar a:hover {
+    transform: scale(1.15);
+  }
+  
+  .submenu-bar .selected {
+    color: #40de32;
+  }
+
+  .title {
+    font-size: 4vw;
+  }
+
+  .menu-bar-container {
+    width: 80vw;
+  }
+
+  .menu-bar {
+    font-size: 2vw;
+  }
+
+  .menu-separator {
+    width: 50%;
+  }
+
+  .carousel {
+    width: 80vw;
+    height: 46vw;
+  }
+
+  .carousel-control {
+    font-size: 5vw;
+  }
+
+  .body-text {
+    width: 80vw;
+    font-size: 2vw;
+  }
+
+  .justified-text,
+  .centered-text {
+    font-size: 2.5vw;
+    line-height: 1.5em;
+  }
+
+  .developer-info img {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .developer-text {
+    font-size: 2vw;
+    line-height: 1.5em;
+  }
+
+  .contact-info a {
+    font-size: 1.2em;
+  }
+
+  #song-title {
+    font-size: 3vw;
+  }
+
+  .music-control {
+    font-size: 7vw;
+  }
+
+  .submenu-bar {
+    font-size: 1.2em;
+  }
+
+  .video-container iframe {
+    width: 80vw;
+    height: 45vw;
+  }
+
+  .subheader {
+    font-size: 3vw;
+  }
+
+  .fanart-carousel .carousel-control {
+    font-size: 5vw;
+  }
+}
